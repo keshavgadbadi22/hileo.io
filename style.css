@@ -1,0 +1,431 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*first-part background starts*/
+
+.first-part{
+	width: 100%;
+	height: 100%;
+	background-image: url("img/slide01.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.first-part h3{
+	font-size: 19px;
+	font-weight: 500;
+	float: left;
+	padding-top: 27px;
+}
+
+.first-part .light{
+		text-transform: uppercase;
+		font-weight: 300;
+}
+
+.first-part .ic{
+	font-size: 17px;
+	font-weight: 500;
+	float: right;
+	padding-top: 30px;
+	padding-right: 28px;
+	text-transform: capitalize;
+}
+
+.first-part i{
+	padding-right: 10px;
+}
+
+.first-part .content{
+	width: 50%;
+	position: relative;
+	top: 22%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.first-part .content p{
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	margin-left: 60px;
+	padding-bottom: 30px;
+}
+
+.first-part .content p span{
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.first-part .content hr{
+	width: 40%;
+	margin:0 auto;
+	margin-bottom: 10px;
+}
+
+.first-part .content h1{
+	font-size: 89px;
+	text-transform: capitalize;
+	font-weight: 400;
+	padding-left: 15px;
+	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+/*first-part background ends*/
+
+/*second-part two images starts*/
+
+.wrapper-color{
+	width: 100%;
+	padding: 80px 0px;
+	background-color: #dfdfdf;
+}
+
+/*two-section go*/
+
+.two-section{
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.second-part .two-section .left{
+	width: 45%;
+	float: left;
+	background-color: #fff;
+}
+
+.second-part .two-section .right{
+	width: 45%;
+	float: right;
+	background-color: #fff;
+}
+
+.two-section img{
+	width: 100%;
+}
+
+.two-section .light-p{
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding: 33px 0px 12px 0px;
+	font-weight: 500;
+	color: gray;
+}
+
+.two-section hr{
+	width: 55%;
+	margin: 0 auto;
+}
+
+.two-section h1{
+	text-transform: capitalize;
+	padding: 7px 0px;
+	font-size: 26px;
+	font-weight: 400;
+}
+
+.two-section .dark-p{
+	font-size: 12px;
+	color: gray;
+	width:85%;
+	line-height: 23px;
+}
+
+.two-section button{
+	width: 100px;
+	height: 30px;
+	background: none;
+	font-size: 10.5px;
+	text-transform: uppercase;
+	font-weight: 500;
+	border: 2px solid gray;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 40px;
+}
+/*two-section go*/
+
+/*second-part two images ends*/
+
+
+/*thrid-part background images starts*/
+
+.thrid-part{
+	width: 100%;
+	padding: 80px 0px;
+	background-color: #dfdfdf;
+	background-image:url("img/bg.jpg") ;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.thrid-part .content{
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+
+.thrid-part .content p{
+	font-size: 12px;
+	text-transform: capitalize;
+	font-weight: 500;
+	letter-spacing: 3px;
+	padding:13px 0px ;
+}
+.thrid-part .content hr{
+	width: 38%;
+	margin: 0 auto;
+}
+
+.thrid-part .content h1{
+	font-size: 31px;
+	font-weight: 400;
+	text-transform: capitalize;
+	padding-top: 12px;
+	padding-bottom: 3px;
+}
+
+/*thrid-part background images ends*/
+
+/*four-part four images starts*/
+
+.four-img{
+	margin: 0 auto;
+	text-align: center;
+}
+.four-img p{
+		font-size: 13px;
+	text-transform: capitalize;
+	font-weight: 500;
+	letter-spacing: 2px;
+	padding:15px 0px ;
+	color: gray;
+}
+.four-img hr{
+	width: 38%;
+	margin: 0 auto;
+}
+.four-img h1{
+		font-size: 30px;
+	font-weight: 300;
+	text-transform: capitalize;
+	padding-top: 6px;
+	padding-bottom: 10px;
+}
+
+.four-img img{
+	width: 30%;
+	border: 10px solid #fff;
+	margin-top: 29px;
+	margin-left: 40px;
+}
+/*four-part four images ends*/
+
+/*footer-part ends*/
+
+.footer{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #000;
+	color: gray;
+	padding: 40px 0px;
+}
+
+.footer .icons i{
+	font-size: 19px;
+	border: 1px solid gray;
+	border: 100%;
+	padding: 8px;
+	margin-left: 11px;
+}
+
+.footer p{
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+.footer .icons i:hover{
+	width: 20px;
+	height: 19px;
+	background-color: blue;
+	color: #fff;
+	border-radius: 100%;
+}
+
+/*footer-part ends*/
+
+
+/*media  queries resposive part starts*/
+
+@media only screen and (max-width:800px){
+
+	.first-part{
+		width: 100%;
+		height: 100%;
+	}
+
+	.first-part .content{
+		width: 80%;
+		text-align: center;
+	}
+
+	.first-part .content p{
+		width: 90%;
+		font-size: 15px;
+		line-height: 30px;
+	}
+
+		.first-part .content h1{
+			font-size: 80px;
+		}
+}
+
+/*first part media responsive ebd*/
+
+
+@media only screen and (max-width:700px){
+	.wrapper-color{
+		width: 100%;
+		clear: both;
+	}
+
+	.second-part{
+		width: 100%;
+		clear: both;
+	}
+
+	.second-part .two-section{
+		width: 100%;
+	}
+	.second-part .two-section .left{
+		width: 80%;
+		position: relative;
+		right: -80px;
+
+	}
+
+	.second-part .two-section .right{
+		width: 80%;
+		position: relative;
+		right: 57px;
+		margin-top: 60px;
+
+	}
+
+	.four-part{
+		width: 100%;
+	}
+
+	.four-part .four-img{
+		width: 100%;
+	}
+
+	.four-part .four-img p{
+		font-size: 18px;
+		line-height: 26px;
+		margin-bottom: 10px;
+	}
+
+	.four-part .four-img h1{
+		margin-top: 10px;
+		font-size: 30px;
+	}
+
+	.four-part .four-img img{
+		width: 77%;
+	}
+}
+
+
+/* second 500px starts*/
+
+@media only screen and (max-width:550px){
+	.second-part .two-section .left{
+		width: 95%;
+		position: relative;
+		right: -12px;
+	}
+	.second-part .two-section .right{
+		width: 96%;
+		position: relative;
+		left: -9px;
+	}
+}
+
+
+
+@media only screen and (max-width:400px){
+
+	.first-part {
+		width: 100%;
+		height: 100%;
+	}
+	.first-part .content{
+		width: 90%;
+		position: relative;
+		right: 60px;
+	}
+
+	.first-part .content p{
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.first-part .content hr{
+		position: relative;
+		left: 44px;
+	}
+	.first-part .content  h1{
+		font-size: 68px;
+		position: relative;
+		left: 44px;
+	}
+}
+
+/*thrid-part media quesres*/
+
+@media only screen and (max-width:560px){
+	.thrid-part{
+		width: 100%;
+		clear: both;
+		background-size: cover;
+	}
+.thrid-part .content{
+	width: 90%;
+}
+
+.thrid-part .content p{
+	font-size: 13px;
+	line-height: 26px;
+	margin-bottom: 10px;
+}
+
+.thrid-part .content h1{
+	font-size: 31px;
+	margin-top: 10px;
+}
+
+}
+
+
+/*media  queries resposive part ends*/
